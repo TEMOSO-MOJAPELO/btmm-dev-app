@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --background: url('../src/assets/Home\(Light\ Mode\).png');
+}
+
+
+[data-theme='dark'] {
+  --background: url('../src/assets/Home\(Dark\ Mode\).png');
+}
+
+body {
+  background: var(--background)
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to bottom,
+    #EEB481, 
+    #BE600D
+  )!important;
+}
+
+::placeholder {
+  color: #C8C8C8;
+}

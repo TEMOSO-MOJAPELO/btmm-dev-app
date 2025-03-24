@@ -1,0 +1,39 @@
+  const [nav, setNav] = useState(false);
+
+  const handleNav = () => {
+      setNav(!nav);
+  }
+
+  return (
+    <div className='flex justify-between items-center h-24 mx-auto px-4 text-white'>
+       <img className='w-[120px] p-4' src={LogoB} alt="Logo" />
+       <ul className='hidden md:flex font-medium'>
+            <li className='p-4 text-[#646464]'>Home</li>
+            <li className='p-4 text-[#646464]'>About</li>
+            <li className='p-4 text-[#646464]'>Services</li>
+            <li className='p-4 text-[#646464]'>Projects</li>
+            <li className='p-2 text-black'><button className='bg-[#D8843B] font-bold w-[130px] rounded-md md:py-2 shadow-xl hover:shadow-lg hover:bg-black hover:text-[#D8843B] ease-in-out duration-500 rounded-md'>Let's talk</button></li>
+            <li className='p-4 text-[#646464] ease-in duration-500 hover:text-[#D8843B]'><GoMoon size={28}/></li>
+        </ul>
+
+
+        <div onClick={handleNav} className='block md:hidden'>
+          {!nav ? <AiOutlineClose size={20} color='#646464' /> : <AiOutlineMenu size={20} color='#646464' /> }
+          
+        </div>
+        <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r-gray-900 bg-[#0E0E0E] ease-in-out duration-500' : 'fixed left-[-100%]'}>
+          <img className='w-[120px] p-3 my-2' src={LogoW} alt="Logo" />
+
+          <ul className='uppercase p-4'>
+            <li className='p-4 text-[#E1D7C2] border-b border-gray-600'>Home</li>
+            <li className='p-4 text-[#E1D7C2] border-b border-gray-600'>About</li>
+            <li className='p-4 text-[#E1D7C2] border-b border-gray-600'>Services</li>
+            <li className='p-4 text-[#E1D7C2]'>Projects</li>
+          </ul>
+
+          <div className='p-4 text-[#646464] ease-in duration-500 hover:text-[#D8843B]'>
+              <GoMoon size={28}/>
+          </div>
+        </div>
+    </div>
+  )
