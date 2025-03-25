@@ -29,7 +29,7 @@ const Projects = () => {
                             <a href="https://predict-0tf4.onrender.com/" target='blank'>
                                 <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.com/TEMOSO-MOJAPELO/predict.git" target='blank'>
+                            <a href="https://mega.nz/file/reZGwIKR#7ey73hiOfXkbB7tmoI7WMP_4WPm4_lOmXCaXc-pzfvM" target='blank'>
                                 <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -43,7 +43,7 @@ const Projects = () => {
                             Thuto VT UI
                         </span>
                         <div className='pt-6 text-center'>
-                            <a href="https://github.com/TEMOSO-MOJAPELO/ThutoUI.git" target='blank'>
+                            <a href="https://mega.nz/folder/vXZgXSDR#HnHYOtxiQHZQucYxelb6Zg" target='_blank'>
                                 <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>View</button>
                             </a>
                             
@@ -62,7 +62,7 @@ const Projects = () => {
                             <a href="https://temoso-mojapelo.github.io/Web-Music-Player/" target='blank'>
                                 <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.com/TEMOSO-MOJAPELO/HexSoftwares_Web_Music_Player.git" target='blank'>
+                            <a href="https://mega.nz/file/TbQmBZ5A#rBN73NhyPSrwl5LmybRtgi_Xo5DPOJyWJE6F1LJLNtA" target='blank'>
                                 <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -80,7 +80,7 @@ const Projects = () => {
                                 <a href="https://temoso-mojapelo.github.io/Book-Library-App/" target='blank'> Demo</a>
                             </button>
 
-                            <a href="https://github.com/TEMOSO-MOJAPELO/HexSoftwares_Project3_Book_Library.git" target='blank'>
+                            <a href="https://mega.nz/file/GWhGzATI#r0kOiWDQ_NU_wG3gJIk0wy4DRab8_PoYv4ljAotFJ0g" target='_blank'>
                                 <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Code</button>
                             </a>
                         </div>
