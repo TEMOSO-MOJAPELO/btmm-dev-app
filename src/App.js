@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from './components/Hero'
 import About from "./components/About";
+import TechStack from "./components/TechStack";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -16,7 +17,8 @@ function App() {
     <div className="app">
       <Navbar />
       <Hero />
-      <About /> 
+      <About />
+      <TechStack /> 
       <Services />
       <Projects /> 
       <Contact />

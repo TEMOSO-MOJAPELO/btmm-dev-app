@@ -43,7 +43,7 @@ const Projects = () => {
                             Thuto VT UI
                         </span>
                         <div className='pt-6 text-center'>
-                            <a href="https://mega.nz/folder/vXZgXSDR#HnHYOtxiQHZQucYxelb6Zg" target='_blank'>
+                            <a href="https://mega.nz/folder/vXZgXSDR#HnHYOtxiQHZQucYxelb6Zg" target='blank'>
                                 <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>View</button>
                             </a>
                             
@@ -80,7 +80,7 @@ const Projects = () => {
                                 <a href="https://temoso-mojapelo.github.io/Book-Library-App/" target='blank'> Demo</a>
                             </button>
 
-                            <a href="https://mega.nz/file/GWhGzATI#r0kOiWDQ_NU_wG3gJIk0wy4DRab8_PoYv4ljAotFJ0g" target='_blank'>
+                            <a href="https://mega.nz/file/GWhGzATI#r0kOiWDQ_NU_wG3gJIk0wy4DRab8_PoYv4ljAotFJ0g" target='blank'>
                                 <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Code</button>
                             </a>
                         </div>

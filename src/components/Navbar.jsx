@@ -9,8 +9,6 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
 
- 
-
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
