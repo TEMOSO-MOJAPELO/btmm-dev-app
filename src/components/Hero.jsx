@@ -36,7 +36,7 @@ const Hero = () => {
                 offset={-70}
                 duration={500}
               >Find out more</Link></button> 
-              <button className='bg-transparent text-[15px] text-[#D8843B] border-2 font-bold border-[#F07911] hover:border-[#D8843B] w-[200px] my-6 py-3 shadow-xl hover:shadow-lg hover:bg-[#D8843B] hover:text-white dark:hover:bg-gray-100 dark:hover:text-[#D8843B] dark:hover:border-gray-100 ease-in-out duration-500 rounded-md'><a href="https://github.com/TEMOSO-MOJAPELO/CV.git">Download Resume</a></button>
+              <button className='bg-transparent text-[15px] text-[#D8843B] border-2 font-bold border-[#F07911] hover:border-[#D8843B] w-[200px] my-6 py-3 shadow-xl hover:shadow-lg hover:bg-[#D8843B] hover:text-white dark:hover:bg-gray-100 dark:hover:text-[#D8843B] dark:hover:border-gray-100 ease-in-out duration-500 rounded-md'><a href="https://mega.nz/folder/THYxkaoA#fMOa9PYf8zDh4wMsICKdRA">Download Resume</a></button>
             </div> 
             <ul className='hidden md:flex justify-center mx=-auto pt-[-5] pl-2'>
               <li className='p-3 text-[#646464] hover:text-[#D8843B] ease-in-out duration-300'><a href="https://www.linkedin.com/in/temoso-mojapelo-807893240/">
