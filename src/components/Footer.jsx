@@ -24,16 +24,16 @@ const Footer = () => {
                 A passionate Full Stack Web Developer with one year of multimedia development experience, specializing in MERN Stack. Skilled in problem-solving, adaptable to new learning, and committed to meeting deadlines, with a goal to excel in mobile app and software development.
             </p>
             <div className="flex space-x-4">
-              <a href="https://github.com/TEMOSO-MOJAPELO" className="hover:text-white transition-colors">
+              <a href="https://github.com/TEMOSO-MOJAPELO" className="hover:text-white transition-colors" target='blank'>
                 <FiGithub size={20} />
               </a>
-              <a href="https://x.com/blvck_3lf" className="hover:text-white transition-colors">
+              <a href="https://x.com/blvck_3lf" className="hover:text-white transition-colors" target='blank'>
                 <FaXTwitter size={20} />
               </a>
-              <a href="https://www.instagram.com/temoso.jpg/?utm_source=ig_web_button_share_sheet" className="hover:text-white transition-colors">
+              <a href="https://www.instagram.com/temoso.jpg/?utm_source=ig_web_button_share_sheet" className="hover:text-white transition-colors" target='blank'>
                 <FaInstagram size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/temoso-mojapelo-807893240/" className="hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/temoso-mojapelo-807893240/" className="hover:text-white transition-colors" target='blank'>
                 <FaLinkedin size={20} />
               </a>
             </div>
